@@ -201,7 +201,7 @@ a:hover {
   padding: 3rem 1.25rem;
   position: relative;
   background-color: #fff;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -456,12 +456,15 @@ a:hover {
 }
 
 #header .logo {
-  font-size: 28px;
+  font-size: 40px;
+  font-style: italic;
   margin: 0;
   padding: 0;
-  font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
 }
+
 
 #header .logo a {
   color: #fff;
@@ -472,7 +475,7 @@ a:hover {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.9);;
   padding: 12px 0;
 }
 
@@ -1059,6 +1062,10 @@ a:hover {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+.alter-color{
+  color: #0078ff;
+  margin-right: 0.6rem;
 }
 
 /*--------------------------------------------------------------
